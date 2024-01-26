@@ -20,7 +20,7 @@
 							<p class="card-text">
 								Update: {{.LocalUpdate}} &rarr; {{.LatestUpdate}}
 							</p>
-							{{- else if .LocalUpdate}}
+							{{- else}}
 							<p class="card-text">
 								Version: {{if .Version}}{{.Version}}{{else}}Unknown{{end}} ({{.LocalUpdate}})
 							</p>
